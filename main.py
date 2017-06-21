@@ -1,19 +1,9 @@
 # Author: Nam Nguyen Hoai
-
-import mainframe
-import wx
-
-
-class MyApplication(wx.App):
-
-    def OnInit(self):
-        self.frame = mainframe.MainFrame(None, title='This app to monitor')
-        self.SetTopWindow(self.frame)
-        self.frame.Show()
+import application
 
 
 def main():
-    app = MyApplication()
+    app = application.MyApplication()
     app.MainLoop()
 
 
