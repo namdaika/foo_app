@@ -1,5 +1,6 @@
 # Author: Nam Nguyen Hoai
-import application
+# coding: utf-8
+from application import application
 
 
 def main():
